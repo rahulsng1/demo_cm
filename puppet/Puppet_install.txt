@@ -95,6 +95,8 @@ Run the command below on the puppet agent shell.
 
 back to the puppet master shell and run the command below
 
+Open the port 8140 is working on cloud providers like AWS, GCP etc
+
 /opt/puppetlabs/bin/puppet cert list
 
 And you will get the pending Certificate Signing Request (CSR) from the puppet agent server 'puppet-client'.

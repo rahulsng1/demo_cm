@@ -24,9 +24,12 @@ docker build [OPTIONS] PATH | URL | -
 
 The build command results in a new image that you can start using docker run, just like any other image. Each line in the Dockerfile will correspond to a layer in the images' commit history.
 
-To build a simple image to host LAMP services in acontainer is added in the repo
+To build a simple image to host LAMP services in acontainer is added in this repo,
 
-# cd 
+demo_cm
+
+
+# cd mybuild 
 
 # docker build --tag <name of the image> .
 
